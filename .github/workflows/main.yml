@@ -20,7 +20,7 @@ jobs:
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }}
           script: |
-            cd /home/auladevops/aula-espm-devops
+            cd /home/vitor.takahashi/devops-pratica-3
             git pull
             sudo docker-compose down
             sudo docker-compose up -d
